@@ -8,7 +8,7 @@
 import Pagebody from './components/Pagebody.vue'
 import Headerbar from './components/Headerbar.vue'
 import Sidebar from './components/Sidebar.vue'
-import Homepage from './components/Homepage.vue'
+import Homepage from './components/pagebody/Homepage.vue'
 
 export default {
   name: 'App',

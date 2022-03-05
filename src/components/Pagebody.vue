@@ -20,6 +20,8 @@ export default {
         height:calc(100vh-10vw);
         top:0;
         left:0;
+        margin-top:0;
+        margin-left:0;
         background:pink;
         overflow-y:scroll;
         overflow-x:none;
