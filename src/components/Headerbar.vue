@@ -1,0 +1,43 @@
+<template>
+    <div>
+        <span class="headerlogo1">
+            <svg width="10vw" viewBox="40 20 242 213">
+                <path fill="#CCCCFF" d="M74 116L90 116L90 209L157 209L157 224L74 224L74 116ZM157 29L157 202L141 202L141 60L99 89L141 89L141 105L113 105L113 202L97 202L97 105L48 105L157 29ZM251 224L227 105L274 105L168 31L169 224L185 224L185 62L223 89L185 89L185 105L211 105L236 224L251 224Z"/>
+            </svg>
+        </span>
+        <span class="headerlogo2">
+            aramie Restoration
+        </span>
+    </div>
+</template>
+
+<script>
+export default {
+  name: 'Headerbar',
+  props: {
+    username: String
+  }
+}
+</script>
+
+<style scoped>
+    div {
+        width:100%;
+        margin-left:0;
+        margin-top:0;
+        height:10vw;
+        background:linear-gradient(45deg,#9999FF 26%, transparent 25%),linear-gradient(-45deg,#9999FF 26%,transparent 25%),linear-gradient(45deg,transparent 75%, #9999FF 75%),linear-gradient(-45deg,transparent 75%, #9999FF 75%),linear-gradient(0deg,#8888FF,#8888FF);
+        background-size:2vw 2vw;
+        background-position:0 0,0 1vw,1vw -1vw,-1vw 0px;
+        text-align:left;
+    }
+    .headerlogo1 {
+        width:10%;
+    }
+    .headerlogo2 {
+        margin-left:-2vw;
+        color:#CCCCFF;
+        min-width:20%;
+        font:5vw Cambria, sans-seif;
+    }
+</style>
