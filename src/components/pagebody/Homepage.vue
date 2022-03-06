@@ -1,8 +1,6 @@
 <template>
-    <div>Test
-        <h1>
-            About Us
-        </h1>
+    <div>
+        About Us
     </div>
 </template>
 
@@ -17,9 +15,5 @@ export default {
 </script>
 
 <style scoped>
-    h1 {
-        width:90vw;
-        margin-left:4vw;
-        
-    }
+    
 </style>

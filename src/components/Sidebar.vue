@@ -1,7 +1,7 @@
 <template>
     <div :class="(active==true)?'active':''">
         <div class="greyout"></div>
-        <a v-on:click="toggle" href="" class="sidebarselect">
+        <a @click="toggle" href="" class="sidebarselect">
             <svg viewBox="0 0 20 20">
                 <path d="M4 4L16 4L16 8L4 8Z"/>
                 <path d="M4 12L16 12L16 16L4 16Z"/>
@@ -16,8 +16,10 @@
 <script>
 export default {
     name:'Sidebar',
-    props:{
-        active:Boolean
+    data() {
+        return {
+            active:false
+        }
     },
     methods:{
         toggle:function(){

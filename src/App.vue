@@ -1,6 +1,7 @@
 <template>
   <Headerbar username="Eric"/>
-  <Sidebar v-bind:active="false"/>
+  <Pagebody route="homepage"/>
+  <Sidebar/>
 </template>
 
 <script>
