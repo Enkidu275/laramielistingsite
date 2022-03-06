@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="pagebody">
         <Homepage contactemail="enkidu275@gmail.com" contactphone="(307)343-3247"/>
     </div>
 </template>
@@ -14,7 +14,7 @@ export default {
 </script>
 
 <style scoped>
-    div {
+    .pagebody {
         position:absolute;
         width:100%;
         height:calc(100vh-10vw);

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="mainheader">
         <!--Use "a" to enable tabbing for ADA purposes-->
         <a href="">
             <span class="headerlogo1">
@@ -12,26 +12,24 @@
                 aramie<br/>Restoration
             </span>
         </a>
-        <a href="" class="headerlogo3">
-            
-        </a>
     </div>
 </template>
 
 <script>
-    export default {
-        name: 'Headerbar',
-        props: {
-            username: String
-        }
+export default {
+    name: 'Headerbar',
+    props: {
+        username: String
     }
+}
 </script>
 
 <style scoped>
-    div {
+    .mainheader {
         width:100%;
-        margin-left:0;
-        margin-top:0;
+        position:absolute;
+        left:0;
+        top:0;
         height:10vw;
         background:linear-gradient(45deg,#9999FF 26%, transparent 25%),linear-gradient(-45deg,#9999FF 26%,transparent 25%),linear-gradient(45deg,transparent 75%, #9999FF 75%),linear-gradient(-45deg,transparent 75%, #9999FF 75%),linear-gradient(0deg,#8888FF,#8888FF);
         background-size:2vw 2vw;
@@ -49,14 +47,5 @@
         height:10vw;
         color:#CCCCFF;
         font:4vw Cambria, sans-seif;
-    }
-    .headerlogo3 {
-        text-decoration:none;
-        font-style:none;
-        height:10vw;
-        margin-right:2vw;
-        float:right;
-        color:#CCCCFF;
-        font:5vw Cambria, sans-serif;
     }
 </style>
